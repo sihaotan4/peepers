@@ -2,8 +2,14 @@
 name = "peepers"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["sihao <sihao.dev@gmail.com>"]
+license = "MIT"
+description = "CLI tool to view and query tabular data formats"
+readme = "README.md"
+homepage = "https://github.com/sihaotan4/peepers"
+repository = "https://github.com/sihaotan4/peepers"
+keywords = ["cli", "sql", "csv", "parquet"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.4.18", features = ["cargo"] }
